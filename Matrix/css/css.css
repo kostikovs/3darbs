@@ -1,0 +1,131 @@
+p {
+	font-family: Tahoma;
+	font-size: 12px;
+	line-height: 1.5;
+	color:#000000;
+
+}
+
+nav ul {
+	font-family: Tahoma;
+	font-size: 12px;
+
+}
+body {
+
+	margin: 800px auto;
+	width: 800px;
+	position: static;
+	background-color:black;
+    background-image: url("http://1.bp.blogspot.com/-CdeMOWdX0ts/UM85l9h_Z6I/AAAAAAAABl0/uy_VzAwGZHY/s1600/marussia-logo-2.jpg");
+    background-position: center center;
+
+    margin-top:0px;
+    background-repeat: no-repeat;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline;
+	color:#000000;
+}
+
+h1 {
+	font-family: Tahoma;
+	font-size: 14px;
+	color:#000000;
+
+}
+
+.hide{
+	display:none;
+}
+
+
+main, nav{
+	background-color: orange;
+	/*max-width: 800px;
+	margin: 0px auto;*/
+	padding:20px;
+}
+
+
+aside{
+	background-color: green;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+footer{
+	padding:10px;
+}
+
+.navbar{
+	margin-bottom: 0px;
+	padding:0px;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+	background-color: #beffd2;
+	margin: 0px;
+	border:0px;
+	border-color:#beffd2;
+}
+
+.navbar-inverse{
+	border-color:#beffd2;
+	background-color: #beffd2;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a{
+	text-shadow: none;
+	color:#000000;
+	background-color: #beffd2;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.open>a{
+	background-color: #beffd2;
+	color:#000000;
+}
+
+
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+	background-color: #beffd2;
+	color:#ffffff;	
+}
+
+.navbar-header{
+	background-color: #beffd2;
+	color:#ffffff;	
+}
+/* pogai */
+.navbar-inverse .navbar-toggle{
+	border:0px;
+	background-color: #beffd2;
+	color:#ffffff;
+}
+
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+      color: #000;
+      background: #beffd2;
+      text-decoration: none;
+      text-shadow:none;
+      -webkit-box-shadow: none;
+	  -moz-box-shadow: none;
+	  box-shadow: none;
+	  font-weight: bold;
+
+ }
+
+
+.row{
+	margin-right: -30px;
+    margin-left: -30px;
+}
+
+
+
+

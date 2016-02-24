@@ -1,0 +1,605 @@
+
+/*--------Izvelnes dizaina noformçjums----------*/
+		#about div { text-transform: uppercase; color: #eee; font: 15px Helvetica, Arial, Sans-Serif;
+		             -webkit-transition: all 0.12s ease-out;
+		             -moz-transition: all 0.12s ease-out;
+		             -o-transition: all 0.12s ease-out;
+		}
+		#about div:nth-child(1) { font-size: 17px; letter-spacing: 1px;}
+		
+		#about div:hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); 
+			color: #fff;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+	letter-spacing: 1px; }
+	
+/*--------Izvelnes dizaina beigas----------*/
+
+
+/*--------Virsraktu dizaini----------*/
+#burning h1 {
+	color: #fff;
+	text-shadow: 0px -1px 4px #7FFF00	, 0px -2px 10px #7FFF00	, 0px -10px 20px #7FFF00	, 0px -18px 40px #7FFF00	;
+	font: 80px 'BlackJackRegular';
+}
+#cloud9 h1 {
+	text-shadow: 0px 0px 10px rgba(255,255,255,0.6), 0px 0px 30px rgba(255,255,255,0.4), 0px 0px 50px rgba(255,255,255,0.3), 0px 0px 180px rgba(255,255,255,0.3);
+	color: rgba(255,255,255,0);
+	font: 80px 'ChunkFiveRegular';
+}
+#citylights ul li a{
+	color: #fff;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+	letter-spacing: 5px;
+	font:  'MisoRegular';
+}
+#citylights h1 {
+	color: #fff;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+	letter-spacing: 5px;
+	font: 80px 'MisoRegular';
+}
+/*--------filmu sadaljas dizains----------*/
+
+/*--------Virsraktu dizainu beigas----------*/
+
+/*--------Dinamiskais fons style----------*/
+ #orbitum_background {
+  background-color:black;
+  /*--------background-image: url("Images/eHeh74ab4CI.jpg");----------*/
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  max-height: 100%;
+  background-position: 50% 50%;
+  background-size: auto;
+  position: fixed;
+  scroll-behavior: smooth;
+
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+/*--------Dinamiskais fons style beigas----------*/
+
+h4 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
+
+.panel-heading {
+background: rgba(0, 0, 0, 0.4);
+
+}
+
+.panel-default{
+	background: rgba(0, 0, 0, 0.4);
+	color:#C0C0C0;
+}
+nav ul {
+	font-family: Tahoma;
+	font-size: 12px;
+
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline;
+	color:#000000;
+}
+
+h1 {
+	font-size:22px;
+	font-family: Tahoma;
+	font-weight: bold;
+	color:#000000;
+
+}
+img {
+	
+    display: inline-block;
+    
+    padding-bottom: 0px;
+
+}
+
+.hide{
+	display:none;
+}
+
+#box{
+
+			width:100%;
+			padding-bottom: 1%;
+			background-color: #303030;
+			border-radius: 10px;
+			color:#C0C0C0;
+			 text-align: center;
+		}
+
+main, nav{
+	background-color: #beffd2;
+	border-radius: 7px;
+	/*max-width: 800px;
+	margin: 0px auto;*/
+	padding:20px;
+}
+
+
+aside{
+	
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+footer{
+	padding:10px;
+}
+
+.navbar{
+
+    background: url(&quot;http://themetest.orbitum.com/themes/1715/1714524/full-dark.png&quot;) !important;
+url(" http:="" themetest.orbitum.com="" themes="" 1715="" 1714524="" full-dark.png")="" !important;"=""
+	margin-bottom: 0px;
+	padding:0px;
+
+}
+
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+	
+	
+ 
+
+	margin: 0px;
+	border:0px;
+	border-color:#AEBCC4;
+}
+
+.navbar-inverse{
+		
+	background-color: #beffd2;
+}
+
+
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a{
+	text-shadow: none;
+	
+	color:#000000;
+	background-color: green;
+	border-radius: 100px;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.open>a{
+	background-color: #beffd2;
+	color:#000000;
+}
+
+
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+	background-color: #beffd2;
+	color:#ffffff;	
+}
+
+.navbar-header{
+	background-color: #34383A;
+	color:#ffffff;	
+}
+/* pogai */
+.navbar-inverse .navbar-toggle{
+	border:0px;
+	background-color: red;
+	color:#ffffff;
+}
+
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+      color: #000;
+      background: #beffd2;
+      text-decoration: none;
+      text-shadow:none;
+      -webkit-box-shadow: none;
+	  -moz-box-shadow: none;
+	  box-shadow: none;
+	  font-weight: bold;
+
+ }
+
+
+.row{
+
+    background-position: center center;
+	margin-right: 20px;
+    margin-left: 20px;
+    
+}
+
+
+
+
+body {
+	
+
+    margin: 0;    padding: 0;    left: 0;   
+     top: 0;    right: 0;    bottom: 0;    
+     max-width: 100%;    max-height: 100%;   
+      background-position: 50% 60%;
+          background-size: auto;   
+           scroll-behavior: smooth;    
+    /* z-index: -2; */    -webkit-transition: all 0.5s ease;   
+     transition: all 0.5s ease;
+     background-image: url("Images/eHeh74ab4CI.jpg");
+	background-color: white;
+	
+    background-position: center center;
+
+  
+    
+}
+
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+#header {
+	
+	padding:10px;
+}
+#content {
+	padding-bottom:100px; /* Height of the footer element */
+}
+#footer {
+	
+	width:100%;
+	height:100px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+
+
+/* /////////Test///// ID izpratne */
+#img a img{
+	
+   
+    float: center;
+    width:  150px;
+    height: 150px;
+ 
+}
+ h6{
+ 	padding-top: 30px;
+ 	color: #fff;
+	text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+	font: 'ChunkFiveRegular';
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  margin: 0px;
+  white-space:nowrap;
+  overflow: hidden;
+  width: 15em;
+  animation: type 5s steps(50, end) 1;   
+}
+@keyframes type{
+  from{ width: 0;}
+}
+span{
+  animation: blink 1s infinite;
+}
+
+@keyframes blink{
+  to{ opacity: .0;}
+}
+
+
+/* /////////Test///// ID izpratne */
+h3{
+			color: #fff;
+	text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+	font: 'ChunkFiveRegular';
+}
+
+/* Filmas sadadalas fons Blur un bilde*/
+#background {
+background-repeat: round;
+  left: 100%;
+  top: 100%;
+  width: 100%;
+  height: 610px;
+	background-image: url(http://images.apple.com/home/images/osx_hero.jpg);
+    background-image: url(http://cdn01.wallconvert.com/_media/wallpapers_1680x1050/1/2/gradient-16415.jpg);
+    background-position: 0 0;
+}
+
+#blur {
+	
+	left: 100%;
+	height: 60px;
+	width: 100%;
+ 
+	padding-bottom: 1%;
+			border-color: black;
+			border-radius: 10px;
+	background-image: url(http://images.apple.com/home/images/osx_hero_blur.jpg);
+    background-image: url(http://cdn01.wallconvert.com/_media/wallpapers_1680x1050/1/2/gradient-16415.jpg);
+	
+}
+/* Filmas sadadalas fons Blur un bildes beigas*/
+
+.thumbnail {
+	background: rgba(0, 0, 0, 0.4);
+
+}
+
+.content {
+	margin: 0px auto;
+	width: 800px;
+	background-color: #cccccc;
+}
+.teksts{
+	margin: 0px auto;
+	width:800px;
+	background-color: green;
+}
+.info{
+	margin: 0px auto;
+	width: 800px;
+	background-color: green;
+}
+.s{
+margin: auto;
+	background-color: brown;
+width: 793px;
+
+	
+}
+a{
+	  color: black;
+}
+p{
+
+
+	
+	color: white;
+	margin: 0px auto;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+
+.logo{
+	max-height: 120px;
+	max-width: 170px;
+	margin-left: 20px;
+	margin-bottom: 6px;
+	margin-top: 6px;
+	border-radius: 10px;
+	
+	z-index:2000;
+}
+
+.maincontent{
+	max-width: 800px;
+	margin: auto;
+	padding: 20px;
+
+}
+
+.form{
+	max-width: 300px;
+	margin: auto;
+}
+section{
+	color: white;
+}
+
+h1{
+
+color:green
+
+}
+
+.footer{
+	position: fixed;
+   	bottom:0;
+  	width:100%;
+	 
+	background:#243E90;
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-collapse.in{
+	overflow-y: visible !important;
+}
+
+.author{
+	margin: auto;
+	color:#ffffff;
+	max-width: 200px;
+	position: relative;
+	top:20px;
+	font-size: 10px;
+}
+
+.header{
+	width:100%;
+	background:#ffffff;
+	height: 60px;
+
+}
+.header img{
+	background-color: #ffffff;
+}
+
+.maincontent{
+	margin-top: 8%;
+}
+
+.mainbutton{
+	position: relative;
+	left: 210px;
+	width: 94px;
+
+}
+
+.navbar-static-top{
+	background-color:#243E90; 
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color:#ffffff;
+}
+.navbar-inverse {border-color: transparent;}
+
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+	background-color:#AEBCC4; 	
+}
+
+.navbar-static-top{
+	border-width: 0px;
+	top:23px;
+
+}
+
+
+tr, td{
+color: white;
+padding:3px;
+<!--lai tabula paraditu linijas border:1px solid #000000;-->
+
+}
+
+table{
+
+}
+
+.question_test{
+border-color:#286090;
+background-color:#2e6da4; 
+color:#ffffff;
+padding-top:5px;
+padding-bottom:5px;
+}
+
+.your_answer{
+background-color:#ec971f;
+border-color:#d58512;
+border-right:#398439;
+color:#ffffff;
+
+}
+
+.correct_answer{
+background-color:#449d44;
+border-color:#398439;
+color:#ffffff;
+}
+
+.blank_row{
+background-color:#ffffff;
+border-color:#ffffff;
+height:5px;
+}
+
+
+.incorrect_answer{
+background-color:#c9302c;
+border-color:#ac2925;
+color:#ffffff;
+}
+
+.error{
+color:#ffffff;
+background-color:#d9534f;
+border-color:#d43f3a;
+}
+.mainMenu{
+
+	width: 800px;
+	background-color: red;
+	margin: 0px auto;
+	margin:auto;
+}
+
+.izvelne3 {
+
+  background: rgba(0, 0, 0, 0.4);
+
+
+
+
+margin:auto;
+
+}
+
+
+.izvelne2 {
+
+   background: rgba(0, 0, 0, 0.4);
+
+
+margin: 0px auto;
+width: 490px;
+border-radius:10px;
+padding-top:20px;
+padding-bottom: 20px;
+
+margin:auto;
+}
+#about a:hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); 
+			color: #fff;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+	letter-spacing: 1px; }
+.sn{
+
+padding-left: 0px !important;
+}
+
+.sn a{
+border-color: black;
+border: 2px;	
+background-color: transparent !important;
+
+}
+
+.navbar-nav li{
+	background-position: fixed;
+list-style-type:none;  /*tiek noòemta nesakârtotâ saraksta simbols pirms nosaukuma*/
+display:inline; /* saraksts tiek atspoguïots horizontâli (pçc noklusçjuma tiek atspoguïots vertikâli) */
+padding-left: 20px;
+
+margin:auto;
+}
+
+.navbar-navli a{
+
+text-decoration:none; /*tiek noòemts noklusçtâ krâsa */
+ background: green;
+
+
+ border-radius:10px;
+color:#ffffff; /* teksta krâsa */
+margin:auto;
+}
+
+.navbar-nav li a:hover{
+
+
+background-color: yellow;
+
+margin:auto;
+}
+/*--------Izvelne2 dizaina noformçjuma beigas----------*/
+
